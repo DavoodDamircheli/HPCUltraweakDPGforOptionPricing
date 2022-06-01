@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="primalDPG_HPC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primalDPG_HPC">
+				<Option output="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/primalDPG_HPC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/Eigen"/>
+					<Add directory="/usr/local/opt/open-mpi/include"/>
+					<Add directory="/usr/local/opt/petsc/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/../../../../../../include/c++/11/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 primalDPG_HPC"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primalDPG_HPC/fast">
+				<Option output="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/primalDPG_HPC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/Eigen"/>
+					<Add directory="/usr/local/opt/open-mpi/include"/>
+					<Add directory="/usr/local/opt/petsc/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/../../../../../../include/c++/11/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_2/lib/gcc/11/gcc/x86_64-apple-darwin19/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 primalDPG_HPC/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/BinomialHighamOptionPricing.cpp">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/BinomialHighamOptionPricing.h">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/Eigen">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/FEValues.h">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/main.cpp">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/primalEuropeanOptions.cpp">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/primalEuropeanOptions.h">
+			<Option target="primalDPG_HPC"/>
+		</Unit>
+		<Unit filename="/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

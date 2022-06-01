@@ -1,0 +1,23 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -Deigen_include_dir=/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/Eigen -Dmpi_include_dir=/usr/local/opt/open-mpi/include -Dmpi_lib_dir=/usr/local/opt/open-mpi/lib -Dmpicxx_lib=/Users/davood/spack/opt/spack/darwin-catalina-haswell/apple-clang-12.0.0/openmpi-4.1.1-oye3ykbaby62dlikbc236w5x57nfmnuv/bin -Dpetsc_include_dir=/usr/local/opt/petsc/include -Dpetsc_lib_dir=/usr/local/opt/petsc/lib -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=g++-11 "-DCMAKE_CXX_FLAGS=-std=c++11 -mfma -fopenmp" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC
+-- The C compiler identification is AppleClang 12.0.0.12000032
+-- The CXX compiler identification is GNU 11.2.0
+-- Check for working C compiler: /usr/bin/clang
+-- Check for working C compiler: /usr/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Checking whether CXX compiler has -isysroot
+-- Checking whether CXX compiler has -isysroot - yes
+-- Checking whether CXX compiler supports OSX deployment target flag
+-- Checking whether CXX compiler supports OSX deployment target flag - yes
+-- Check for working CXX compiler: /usr/local/bin/g++-11
+-- Check for working CXX compiler: /usr/local/bin/g++-11 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+WARNING: Target "primalDPG_HPC" requests linking to directory "/Users/davood/spack/opt/spack/darwin-catalina-haswell/apple-clang-12.0.0/openmpi-4.1.1-oye3ykbaby62dlikbc236w5x57nfmnuv/bin".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/cmake-build-debug
