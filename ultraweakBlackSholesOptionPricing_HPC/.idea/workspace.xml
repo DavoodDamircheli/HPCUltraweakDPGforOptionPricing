@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ultraweakDPGoptionPricing_HPC" targetName="ultraweakDPGoptionPricing_HPC" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-Deigen_include_dir=/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/Eigen -Dmpi_include_dir=/usr/local/opt/open-mpi/include -Dmpi_lib_dir=/usr/local/opt/open-mpi/lib -Dmpicxx_lib=/Users/davood/spack/opt/spack/darwin-catalina-haswell/apple-clang-12.0.0/openmpi-4.1.1-oye3ykbaby62dlikbc236w5x57nfmnuv/bin -Dpetsc_include_dir=/usr/local/opt/petsc/include -Dpetsc_lib_dir=/usr/local/opt/petsc/lib -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=g++-11 -DCMAKE_CXX_FLAGS=&quot;-std=c++11 -mfma -fopenmp&quot; -DCMAKE_BUILD_TYPE=Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61d9d4f0-09ec-4cec-aec1-2061efb88495" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../DPG/matlabDPG/DPGpossion1D.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../DPG/matlabDPG/DPGpossion1D.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DPG/matlabDPG/firstOrderDPG.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG/primalEuropeanOptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG/primalEuropeanOptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/CMakeFiles/primalDPG_HPC.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/CMakeFiles/primalDPG_HPC.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/CMakeFiles/primalDPG_HPC.dir/primalEuropeanOptions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/CMakeFiles/primalDPG_HPC.dir/primalEuropeanOptions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/GlobalL2ErrorPriamlDPG.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/GlobalL2ErrorPriamlDPG.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/GlobalLinfErrorPriamlDPG.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/GlobalLinfErrorPriamlDPG.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/GlobalRawErrorPriamlDPG.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/GlobalRawErrorPriamlDPG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/primalDPG_HPC" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/primalDPG_HPC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/trialSoltionPriamlDPG.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/cmake-build-debug/trialSoltionPriamlDPG.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/primalEuropeanOptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/primalEuropeanOptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primalDPG_HPC/primalEuropeanOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../primalDPG_HPC/primalEuropeanOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ultraweakDPGOptionPricing/FEValues.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ultraweakDPGOptionPricing/FEValues.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ultraweakDPGOptionPricing/ultraweakEuropeanOptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ultraweakDPGOptionPricing/ultraweakEuropeanOptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ultraweakDPGOptionPricing/ultraweakEuropeanOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ultraweakDPGOptionPricing/ultraweakEuropeanOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultraweakEuropeanOptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ultraweakEuropeanOptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultraweakEuropeanOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/ultraweakEuropeanOptions.h" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ultraweakEuropeanOptions.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ultraweakEuropeanOptions.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="870" column="71" selection-start-line="870" selection-start-column="71" selection-end-line="870" selection-end-column="71" />
+              <folding>
+                <element signature="e#1709#2228#0" />
+                <element signature="e#3303#3588#0" />
+                <element signature="e#3589#3827#0" />
+                <element signature="e#3828#6129#0" />
+                <element signature="e#6131#7311#0" />
+                <element signature="e#7314#7907#0" />
+                <element signature="e#7909#8550#0" />
+                <element signature="e#8551#10043#0" />
+                <element signature="e#10045#19454#0" />
+                <element signature="e#19455#22196#0" />
+                <element signature="e#22199#22733#0" />
+                <element signature="e#22734#23107#0" />
+                <element signature="e#23801#24181#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/ultraweakEuropeanOptions.cpp" />
+        <option value="$PROJECT_DIR$/ultraweakEuropeanOptions.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/ultraweakDPGoptionPricing_HPC.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1885" />
+    <option name="y" value="288" />
+    <option name="width" value="1317" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ultraweakDPGoptionPricing_HPC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ultraweakDPGoptionPricing_HPC" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.ultraDPGParallel">
+    <configuration name="ultraDPGParallel" type="CMakeRunConfiguration" factoryName="Application" singleton="false" PROGRAM_PARAMS="-np 16 ./ultraweakDPGoptionPricing_HPC" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ultraweakDPGoptionPricing_HPC" TARGET_NAME="ultraweakDPGoptionPricing_HPC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ultraweakDPGoptionPricing_HPC" RUN_TARGET_NAME="ultraweakDPGoptionPricing_HPC">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ultraweakDPGoptionPricing_HPC" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ultraweakDPGoptionPricing_HPC" TARGET_NAME="ultraweakDPGoptionPricing_HPC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ultraweakDPGoptionPricing_HPC" RUN_TARGET_NAME="ultraweakDPGoptionPricing_HPC">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ultraDPGParallel" />
+      <item itemvalue="CMake Application.ultraweakDPGoptionPricing_HPC" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61d9d4f0-09ec-4cec-aec1-2061efb88495" name="Default Changelist" comment="" />
+      <created>1640462763861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640462763861</updated>
+      <workItem from="1640462765549" duration="40168000" />
+      <workItem from="1643182098035" duration="1588000" />
+      <workItem from="1643263482280" duration="1073000" />
+      <workItem from="1643389240111" duration="236000" />
+      <workItem from="1643505453694" duration="620000" />
+      <workItem from="1643749824242" duration="5833000" />
+      <workItem from="1644818956192" duration="25799000" />
+      <workItem from="1645053807909" duration="794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76111000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1885" y="288" width="1317" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15529412" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996232" visible="true" weight="0.33063585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40893856" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4996232" weight="0.39884394" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33706293" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037676" side_tool="true" weight="0.48603353" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ultraweakEuropeanOptions.cpp</url>
+          <line>135</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Eigen/LU">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEValues.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultraweakEuropeanOptions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="870" column="71" selection-start-line="870" selection-start-column="71" selection-end-line="870" selection-end-column="71" />
+          <folding>
+            <element signature="e#1709#2228#0" />
+            <element signature="e#3303#3588#0" />
+            <element signature="e#3589#3827#0" />
+            <element signature="e#3828#6129#0" />
+            <element signature="e#6131#7311#0" />
+            <element signature="e#7314#7907#0" />
+            <element signature="e#7909#8550#0" />
+            <element signature="e#8551#10043#0" />
+            <element signature="e#10045#19454#0" />
+            <element signature="e#19455#22196#0" />
+            <element signature="e#22199#22733#0" />
+            <element signature="e#22734#23107#0" />
+            <element signature="e#23801#24181#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultraweakEuropeanOptions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

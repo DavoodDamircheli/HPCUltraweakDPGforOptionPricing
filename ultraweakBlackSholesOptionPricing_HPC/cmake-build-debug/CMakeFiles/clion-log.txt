@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -Deigen_include_dir=/Users/davood/Documents/Programing_field/dpgHPC/primalDPG_HPC/Eigen -Dmpi_include_dir=/usr/local/opt/open-mpi/include -Dmpi_lib_dir=/usr/local/opt/open-mpi/lib -Dmpicxx_lib=/Users/davood/spack/opt/spack/darwin-catalina-haswell/apple-clang-12.0.0/openmpi-4.1.1-oye3ykbaby62dlikbc236w5x57nfmnuv/bin -Dpetsc_include_dir=/usr/local/opt/petsc/include -Dpetsc_lib_dir=/usr/local/opt/petsc/lib -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=g++-11 "-DCMAKE_CXX_FLAGS=-std=c++11 -mfma -fopenmp" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/davood/Documents/Programing_field/dpgHPC/ultraweakDPGoptionPricing_HPC
+-- Configuring done
+WARNING: Target "ultraweakDPGoptionPricing_HPC" requests linking to directory "/Users/davood/spack/opt/spack/darwin-catalina-haswell/apple-clang-12.0.0/openmpi-4.1.1-oye3ykbaby62dlikbc236w5x57nfmnuv/bin".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /Users/davood/Documents/Programing_field/dpgHPC/ultraweakDPGoptionPricing_HPC/cmake-build-debug

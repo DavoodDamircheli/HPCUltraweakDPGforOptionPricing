@@ -1,0 +1,39 @@
+function prepareReultsDPGoptionPricing
+
+clc
+clear
+close all
+
+Ns     = [10 50 100 200 300 500 1000];
+ErrInf = [0.0163701,0.00115265,0.000978004,0.000244988,0.000424746,9.77E-05,4.89E-05];
+ErrL2  = [0.0065738,0.000593701,0.000561488,0.000259634, 0.00012396,0.000102836,5.15E-05];
+
+% p = polyfit(Ns,Ns,2);
+% 
+% y1 = polyval(p,Ns);
+
+%--------space
+slopeSpace = 1.4;
+c = exp(-4);
+y = (c*(1./Ns).^(slopeSpace));
+c2 = exp(6);
+yref1 = y *c2;
+
+matrixSpaceLinf = [Ns',ErrInf',yref1'];
+
+matrixSpaceL2 = [Ns',ErrL2',yref1'];
+%save('orderSpace.dat','Nt','y','yref1','-ascii') 
+%save('orderSpace.dat','Nt')
+loglog(Ns,ErrInf,"-*")
+hold on 
+%loglog(Ns,ErrL2,"-*")
+%hold on 
+loglog(Ns,yref1,"-*")
+
+figure 
+
+
+
+save orderSpaceDPGprimalLinf.dat matrixSpaceLinf -ascii
+
+end
